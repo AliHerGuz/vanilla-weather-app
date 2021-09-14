@@ -28,7 +28,17 @@ li{
 
 li::first-letter{
   text-transform: capitalize;
-  
+}
+
+.coded-by{
+  font-size:13px;
+  color:rgb(87, 103, 150);
+}
+
+.github-link {
+  font-size:13px;
+  color:rgb(87, 103, 150);
+  text-decoration:none;
 }
 
 .weather-app-wrapper{
@@ -37,7 +47,7 @@ li::first-letter{
 }
 .weather-app{
   padding: 20px;; 
-  border: 1px solid rgb(218, 216, 216);
+  border: 2px solid rgb(19, 73, 98);
   border-radius: 7px;
 }
 
@@ -45,7 +55,7 @@ li::first-letter{
   margin-bottom: 20px;
 }
 
-.weather-tempeture img{
+.weather-temperature img{
   margin-right: 15px;
   float: left;
   height: 64px;
@@ -53,7 +63,7 @@ li::first-letter{
 
 }
 
-.weather-tempeture strong{
+.weather-temperature strong{
 color:rgb(32, 33, 36);
 font-size:64px;
 font-weight:400;
@@ -61,34 +71,38 @@ line-height:64px;
 
 }
 
-.weather-tempeture .units{
+.weather-temperature .units{
   position: relative;
   font-size: 16px;
   top: -30px;
   
 }
 
-.weather-tempeture .active{
+.weather-temperature .celsius{
   color:rgb(32, 33, 36);
   cursor: default;
   text-decoration: none;
  
 }
 
-.weather-tempeture .inactive{
+.weather-temperature .fahrenheit{
   color:rgb(32, 33, 36);
   cursor: default;
   text-decoration: none;
  
 }
 
-.weather-tempeture .active:hover{
+.weather-temperature .celsius:hover{
   text-decoration: none;
+  color: rgb(34, 62, 147);
+  
   
 }
 
-.weather-tempeture .inactive:hover{
+.weather-temperature .fahrenheit:hover{
   text-decoration: none;
+  color: rgb(34, 62, 147);
+  
   
 }
 
