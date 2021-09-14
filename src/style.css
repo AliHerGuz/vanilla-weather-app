@@ -65,5 +65,30 @@ line-height:64px;
   position: relative;
   font-size: 16px;
   top: -30px;
-
+  
 }
+
+.weather-tempeture .active{
+  color:rgb(32, 33, 36);
+  cursor: default;
+  text-decoration: none;
+ 
+}
+
+.weather-tempeture .inactive{
+  color:rgb(32, 33, 36);
+  cursor: default;
+  text-decoration: none;
+ 
+}
+
+.weather-tempeture .active:hover{
+  text-decoration: none;
+  
+}
+
+.weather-tempeture .inactive:hover{
+  text-decoration: none;
+  
+}
+
